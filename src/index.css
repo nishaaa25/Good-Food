@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.box{
+  background: #ddd;
+  width: 272px;
+  position: relative;
+  padding: 15px 15px 40px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.box .line{
+  width: 100%;
+  height: 10px;
+  background: #bbb;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.box .img{
+  width: 100%;
+  height: 140px;
+  background: #bbb;
+  border-radius: 5px;
+}
+
+.shimmer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 90%;
+  height: 100%;
+
+  background: linear-gradient(100deg,
+  rgba(142, 141, 141, 0) 10%,
+  rgba(157, 155, 155, 0.5) 60%,
+  rgba(255,255,255,0) 80%);
+
+  animation: shimmer 2s infinite linear;
+}
+
+@keyframes shimmer{
+  from {
+      transform: translateX(-180%);
+  }
+  to{
+      transform: translateX(180%);
+  }
+}
+@layer components {
+  .max-container {
+    max-width: 1212px;
+    margin: 0 auto;
+  }
+}
+
+@layer utilities {
+  .padding {
+    @apply sm:px-16 px-8 sm:py-10 py-4;
+  }
+
+  .padding-x {
+    @apply sm:px-32 px-16;
+  }
+
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply sm:pt-24 pt-12;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
+
+  .info-text {
+    @apply text-slate-gray text-lg leading-7;
+  }
+  .shadow { 
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  .btn{
+    @apply px-2 py-1 border-2 border-zinc-800 mr-1 my-1 rounded-md focus:bg-orange-400 focus:text-white focus:border-orange-400
+  }
+}
+

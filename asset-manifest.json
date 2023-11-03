@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/GoodFood/static/css/main.d35da7dd.css",
+    "main.js": "/GoodFood/static/js/main.c130314d.js",
+    "static/js/589.8801d897.chunk.js": "/GoodFood/static/js/589.8801d897.chunk.js",
+    "static/js/642.427f61e5.chunk.js": "/GoodFood/static/js/642.427f61e5.chunk.js",
+    "static/js/787.38eb8968.chunk.js": "/GoodFood/static/js/787.38eb8968.chunk.js",
+    "static/media/logo.png": "/GoodFood/static/media/logo.01ad87d9c565eb3a45f2.png",
+    "static/media/order.png": "/GoodFood/static/media/order.01575f9e676e7764c4ea.png",
+    "static/media/error.png": "/GoodFood/static/media/error.90f4e6bfb0bd1dd0e423.png",
+    "static/media/payment.png": "/GoodFood/static/media/payment.e2f44e7c8e169013828b.png",
+    "static/media/offerIcon.gif": "/GoodFood/static/media/offerIcon.838e9d564994e1622c47.gif",
+    "static/media/slick.svg": "/GoodFood/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/GoodFood/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/GoodFood/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/GoodFood/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/GoodFood/index.html",
+    "main.d35da7dd.css.map": "/GoodFood/static/css/main.d35da7dd.css.map",
+    "main.c130314d.js.map": "/GoodFood/static/js/main.c130314d.js.map",
+    "589.8801d897.chunk.js.map": "/GoodFood/static/js/589.8801d897.chunk.js.map",
+    "642.427f61e5.chunk.js.map": "/GoodFood/static/js/642.427f61e5.chunk.js.map",
+    "787.38eb8968.chunk.js.map": "/GoodFood/static/js/787.38eb8968.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d35da7dd.css",
+    "static/js/main.c130314d.js"
+  ]
+}

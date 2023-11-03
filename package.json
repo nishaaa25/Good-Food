@@ -1,7 +1,7 @@
 {
   "name": "foodordering",
   "version": "0.1.0",
-  "homepage": "https://nishaaa25.github.io/GoodFood",
+  "homepage": "https://nishaaa25.github.io/Good-Food",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",

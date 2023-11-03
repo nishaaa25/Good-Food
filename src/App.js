@@ -9,21 +9,12 @@ import "./index.css";
 import { Provider } from "react-redux";
 import DetailedCard from "./components/DetailedCard";
 import { createBrowserRouter, Outlet } from "react-router-dom";
-// import UserContext from "./utils/UserContext";
 import AppStore from "./utils/appStore";
 
 const Offer = lazy(() => import("./components/Offer"));
 const Search = lazy(() => import("./components/Search"));
 
 const AppLayout = () => {
-  // const [userName, setUserName] = useState();
-
-  // useEffect(() => {
-  //   const data = {
-  //     name: "Nisha Kumari",
-  //   };
-  //   setUserName(data.name);
-  // }, []);
   return (
     <Provider store={AppStore}>
       <div className="app font-sans">
@@ -91,7 +82,7 @@ const AppRouter = createBrowserRouter(
     },
   ],
   {
-    basename: "/GoodFood",
+    basename: "/Good-Food",
   }
 );
 

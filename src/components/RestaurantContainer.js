@@ -90,11 +90,11 @@ const RestaurantContainer = () => {
     <>
     <div className="w-full my-6 lg:my-16 px-2 lg:w-10/12 xl:w-9/12 lg:m-auto  ">
       <div>
-        <Banner
+    {banner && <Banner
           items={banner}
           show={banner.length >= 3 ? 3 : 2}
           label="Best offers for you"
-        />
+        />}
       </div>
       <div>
         <Banner items={varities} show={7} label="What's on your mind?" />

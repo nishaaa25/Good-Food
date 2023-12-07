@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Good-Food/static/css/main.ba41babc.css",
-    "main.js": "/Good-Food/static/js/main.77f2d07d.js",
+    "main.js": "/Good-Food/static/js/main.e5f17ab0.js",
     "static/js/589.8801d897.chunk.js": "/Good-Food/static/js/589.8801d897.chunk.js",
     "static/js/642.427f61e5.chunk.js": "/Good-Food/static/js/642.427f61e5.chunk.js",
     "static/js/787.38eb8968.chunk.js": "/Good-Food/static/js/787.38eb8968.chunk.js",
@@ -16,13 +16,13 @@
     "static/media/slick.woff": "/Good-Food/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Good-Food/index.html",
     "main.ba41babc.css.map": "/Good-Food/static/css/main.ba41babc.css.map",
-    "main.77f2d07d.js.map": "/Good-Food/static/js/main.77f2d07d.js.map",
+    "main.e5f17ab0.js.map": "/Good-Food/static/js/main.e5f17ab0.js.map",
     "589.8801d897.chunk.js.map": "/Good-Food/static/js/589.8801d897.chunk.js.map",
     "642.427f61e5.chunk.js.map": "/Good-Food/static/js/642.427f61e5.chunk.js.map",
     "787.38eb8968.chunk.js.map": "/Good-Food/static/js/787.38eb8968.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ba41babc.css",
-    "static/js/main.77f2d07d.js"
+    "static/js/main.e5f17ab0.js"
   ]
 }

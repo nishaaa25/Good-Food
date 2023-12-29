@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Good-Food/static/css/main.ba41babc.css",
-    "main.js": "/Good-Food/static/js/main.e5f17ab0.js",
-    "static/js/589.8801d897.chunk.js": "/Good-Food/static/js/589.8801d897.chunk.js",
+    "main.css": "/Good-Food/static/css/main.44d41c79.css",
+    "main.js": "/Good-Food/static/js/main.9c177afb.js",
+    "static/js/589.e3b10b79.chunk.js": "/Good-Food/static/js/589.e3b10b79.chunk.js",
     "static/js/642.427f61e5.chunk.js": "/Good-Food/static/js/642.427f61e5.chunk.js",
     "static/js/787.38eb8968.chunk.js": "/Good-Food/static/js/787.38eb8968.chunk.js",
     "static/media/logo.png": "/Good-Food/static/media/logo.01ad87d9c565eb3a45f2.png",
@@ -15,14 +15,14 @@
     "static/media/slick.ttf": "/Good-Food/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Good-Food/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Good-Food/index.html",
-    "main.ba41babc.css.map": "/Good-Food/static/css/main.ba41babc.css.map",
-    "main.e5f17ab0.js.map": "/Good-Food/static/js/main.e5f17ab0.js.map",
-    "589.8801d897.chunk.js.map": "/Good-Food/static/js/589.8801d897.chunk.js.map",
+    "main.44d41c79.css.map": "/Good-Food/static/css/main.44d41c79.css.map",
+    "main.9c177afb.js.map": "/Good-Food/static/js/main.9c177afb.js.map",
+    "589.e3b10b79.chunk.js.map": "/Good-Food/static/js/589.e3b10b79.chunk.js.map",
     "642.427f61e5.chunk.js.map": "/Good-Food/static/js/642.427f61e5.chunk.js.map",
     "787.38eb8968.chunk.js.map": "/Good-Food/static/js/787.38eb8968.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba41babc.css",
-    "static/js/main.e5f17ab0.js"
+    "static/css/main.44d41c79.css",
+    "static/js/main.9c177afb.js"
   ]
 }

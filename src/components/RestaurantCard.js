@@ -7,7 +7,7 @@ const RestaurantCard = ({ resData }) => {
     resData.info;
   const cuisinesNew = cuisines.join(", ");
   return (
-    <div className="w-[94vw] h-[420px] md:w-[30vw] lg:w-[26vw] xl:w-[270px] md:h-[350px] p-2 shadow relative mb-8 group">
+    <div className="w-[94vw] md:w-[46vw] lg:w-[25vw] xl:w-[17vw] p-2 shadow relative mb-8 group">
       <div className="hover:text-orange-400 text-gray-800">
         <div className="w-[100%] h-[200px] relative">
           <img
@@ -52,7 +52,7 @@ export const withOpenLabel = () => {
     const { header, subHeader } = resData?.info?.aggregatedDiscountInfoV3;
     return (
       <div className="relative">
-        <label className="absolute md:top-[45%] left-2 top-[37%] rounded-r-lg px-4 py-2 text-white z-10 font-extrabold bg-black text-lg">
+        <label className="absolute top-[48%] left-2 rounded-r-lg px-4 py-2 text-white z-10 font-extrabold bg-black text-lg">
           <p>{header + " " + subHeader} </p>
         </label>{" "}
         <Link key={resData.info.id} to={"/restaurant/" + resData.info.id}>

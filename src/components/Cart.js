@@ -143,7 +143,7 @@ const Cart = () => {
             </button>
           </div>
         </div>
-        <div className="w-[80%] md:w-[60%] lg:w-[40%] border-2 px-8 border-black rounded-lg p-4">
+        <div className="w-[80%] min-h-[65vh] md:w-[60%] lg:w-[40%] border-2 px-8 border-black rounded-lg p-4">
           <h1 className="font-bold text-2xl mb-8">Order Summary</h1>
           <div>
             <div className="flex justify-between items-center pb-4">

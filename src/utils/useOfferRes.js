@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 
 const useOfferRes = () => {
   const [resList, setResList] = useState(null);
-  useEffect(() => {fetchData()}, []);
+  useEffect(() => {
+    fetchData();
+  }, []);
   const fetchData = async () => {
     const data = await fetch(
-      "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.4822335&lng=73.9470036&page_type=DESKTOP_WEB_LISTING"
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.5940947&lng=85.1375645&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
     setResList(
@@ -16,7 +18,9 @@ const useOfferRes = () => {
         json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
           ?.restaurants
     );
+    console.log(resList);
   };
+
   return resList;
 };
 

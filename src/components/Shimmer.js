@@ -3,45 +3,41 @@ import React from "react";
 const Shimmer = () => {
   return (
     <div className="w-9/12 m-auto my-16 relative overflow-hidden">
-      <div className="flex place-items-center gap-10 relative">
+      <div className="flex items-center justify-between relative">
         <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
+          <div className="w-[130px] h-[130px] rounded-full bg-light-gray"></div>
           <div className="shimmer"></div>
         </div>
         <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
+          <div className="w-[130px] h-[130px] rounded-full bg-light-gray"></div>
           <div className="shimmer"></div>
         </div>
         <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
+          <div className="w-[130px] h-[130px] rounded-full bg-light-gray"></div>
           <div className="shimmer"></div>
         </div>
         <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
+          <div className="w-[130px] h-[130px] rounded-full bg-light-gray"></div>
           <div className="shimmer"></div>
         </div>
         <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
+          <div className="w-[130px] h-[130px] rounded-full bg-light-gray"></div>
           <div className="shimmer"></div>
         </div>
         <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
+          <div className="w-[130px] h-[130px] rounded-full bg-light-gray"></div>
           <div className="shimmer"></div>
         </div>
         <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
+          <div className="w-[130px] h-[130px] rounded-full bg-light-gray"></div>
           <div className="shimmer"></div>
         </div>
         <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
+          <div className="w-[130px] h-[130px] rounded-full bg-light-gray"></div>
           <div className="shimmer"></div>
         </div>
         <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
-          <div className="shimmer"></div>
-        </div>
-        <div className="relative overflow-hidden rounded-full">
-          <div className="w-[80px] h-[80px] rounded-full bg-light-gray"></div>
+          <div className="w-[130px] h-[130px] rounded-full bg-light-gray"></div>
           <div className="shimmer"></div>
         </div>
       </div>

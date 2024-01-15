@@ -22,7 +22,7 @@ const Banner = ({ items, show, label}) => {
                 <div key={item.id} className="p-1 lg:p-2 outline-0 cursor-pointer">
                   <img
                     src={
-                      "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,c_fill/" +
+                      "https://corsproxy.org/?https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fimage%2Fupload%2Ffl_lossy%2Cf_auto%2Cq_auto%2Cc_fill%2F" +
                       item.imageId
                     }
                     alt="img"

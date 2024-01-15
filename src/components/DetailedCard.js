@@ -49,12 +49,6 @@ const DetailedCard = () => {
         text2="Sorry we couldn't find the page you are looking for"
         label="Go to Homepage"
       />
-      // <Card
-      //   imgUrl={ErrorLogo}
-      //   text1="Ooops!"
-      //   text2="No Internet Connection found. Check your connection."
-      //   label="Refresh Page"
-      // />
     );
   return (
     <div className="item-cont w-11/12 lg:w-6/12 m-auto my-16 ">

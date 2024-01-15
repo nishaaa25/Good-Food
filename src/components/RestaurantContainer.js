@@ -19,7 +19,7 @@ const RestaurantContainer = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=25.5940947&lng=85.1375645&page_type=DESKTOP_WEB_LISTING"
+      "https://corsproxy.org/?%20%20%20%20%20%20%22https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Flat%3D25.5940947%26lng%3D85.1375645%26page_type%3DDESKTOP_WEB_LISTING%22"
     );
     // const data = await fetch("https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=18.4822335&lng=73.9470036&page_type=DESKTOP_WEB_LISTING");
     const json = await data.json();

@@ -12,8 +12,7 @@ const RestaurantCard = ({ resData }) => {
         <div className="w-[100%] h-[200px] relative">
           <img
             src={
-              "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,c_fill/" +
-              cloudinaryImageId
+              "https://corsproxy.org/?https%3A%2F%2Fres.cloudinary.com%2Fswiggy%2Fimage%2Fupload%2Ffl_lossy%2Cf_auto%2Cq_auto%2Cc_fill%2F"+cloudinaryImageId
             }
             className="w-[100%] h-[100%] object-cover rounded-b-xl group-hover:w-[95%] group-hover:h-[190px] m-auto transition-all transition-1s"
             alt="heyeyy"

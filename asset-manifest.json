@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/Good-Food/static/css/main.0f9e9d23.css",
-    "main.js": "/Good-Food/static/js/main.e5439919.js",
-    "static/js/589.5dffe778.chunk.js": "/Good-Food/static/js/589.5dffe778.chunk.js",
-    "static/js/642.35d4ebb1.chunk.js": "/Good-Food/static/js/642.35d4ebb1.chunk.js",
+    "main.css": "/Good-Food/static/css/main.ce27c42b.css",
+    "main.js": "/Good-Food/static/js/main.ac7a7f80.js",
+    "static/js/589.357d6c7e.chunk.js": "/Good-Food/static/js/589.357d6c7e.chunk.js",
+    "static/js/642.d309495b.chunk.js": "/Good-Food/static/js/642.d309495b.chunk.js",
     "static/js/787.38eb8968.chunk.js": "/Good-Food/static/js/787.38eb8968.chunk.js",
     "static/media/logo.png": "/Good-Food/static/media/logo.01ad87d9c565eb3a45f2.png",
     "static/media/order.png": "/Good-Food/static/media/order.01575f9e676e7764c4ea.png",
     "static/media/error.png": "/Good-Food/static/media/error.90f4e6bfb0bd1dd0e423.png",
     "static/media/payment.png": "/Good-Food/static/media/payment.e2f44e7c8e169013828b.png",
-    "static/media/offerIcon.gif": "/Good-Food/static/media/offerIcon.838e9d564994e1622c47.gif",
     "static/media/slick.svg": "/Good-Food/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Good-Food/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Good-Food/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Good-Food/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Good-Food/index.html",
-    "main.0f9e9d23.css.map": "/Good-Food/static/css/main.0f9e9d23.css.map",
-    "main.e5439919.js.map": "/Good-Food/static/js/main.e5439919.js.map",
-    "589.5dffe778.chunk.js.map": "/Good-Food/static/js/589.5dffe778.chunk.js.map",
-    "642.35d4ebb1.chunk.js.map": "/Good-Food/static/js/642.35d4ebb1.chunk.js.map",
+    "main.ce27c42b.css.map": "/Good-Food/static/css/main.ce27c42b.css.map",
+    "main.ac7a7f80.js.map": "/Good-Food/static/js/main.ac7a7f80.js.map",
+    "589.357d6c7e.chunk.js.map": "/Good-Food/static/js/589.357d6c7e.chunk.js.map",
+    "642.d309495b.chunk.js.map": "/Good-Food/static/js/642.d309495b.chunk.js.map",
     "787.38eb8968.chunk.js.map": "/Good-Food/static/js/787.38eb8968.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f9e9d23.css",
-    "static/js/main.e5439919.js"
+    "static/css/main.ce27c42b.css",
+    "static/js/main.ac7a7f80.js"
   ]
 }

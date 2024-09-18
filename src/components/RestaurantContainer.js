@@ -7,6 +7,7 @@ import Banner from "./Banner";
 import Footer from "./Footer";
 import { SWIGGY_DATA_URL } from "../Constant";
 import getData from "../utils/getData";
+import Popup from "./PopUp";
 // import { SWIGGY_DATA_URL } from "../Constant";
 
 const RestaurantContainer = () => {
@@ -15,6 +16,9 @@ const RestaurantContainer = () => {
   const [banner, setBanner] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
+  const [isPopupVisible, setPopupVisible] = useState(true);
+
+  const closePopup = () => setPopupVisible(false);
 
   useEffect(() => {
     async function fetchData() {
@@ -78,7 +82,14 @@ const RestaurantContainer = () => {
   const handleFilterAll = () => {
     setFilteredRestaurant(list);
   };
-  if (list.length === 0) return <Shimmer />;
+
+  if (list.length === 0)
+    return (
+      <>
+        <Shimmer />
+        <Popup isVisible={isPopupVisible} onClose={closePopup} />
+      </>
+    );
   return (
     <>
       <div className="w-full my-6 lg:my-16 px-2 lg:w-10/12 xl:w-9/12 lg:m-auto  ">
